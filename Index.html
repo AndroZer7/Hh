@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Student Registration Form</title>
+
+<style>
+
+body {
+
+font-family: Arial, sans-serif;
+
+background-color: #f5f5f5;
+
+margin: 0;
+
+padding: 20px;
+
+}
+
+.form-container {
+
+max-width: 600px;
+
+margin: 0 auto;
+
+background-color: white;
+
+padding: 20px;
+
+border-radius: 8px;
+
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+
+h1 {
+
+color: #2c3e50;
+
+text-align: center;
+
+margin-bottom: 20px;
+
+} form-group {
+
+margin-bottom: 15px;
+
+}
+
+label {
+
+display: block;select {
+
+width: 100%;
+
+padding: 10px;
+
+border: 1px solid #ddd;
+
+border-radius: 4px;
+
+box-sizing: border-box;
+
+} .radio-group, .checkbox-group { margin: 10px 0;
+
+} radio-option, .checkbox-option { margin-right: 15px;
+
+} .buttons {
+
+margin-top: 20px;
+
+text-align: center;
+
+} input[type="submit"],
+
+input[type="reset"] {
+
+padding: 10px 20px;
+
+margin: 0 10px;
+
+border: none;
+
+border-radius: 4px;
+
+cursor: pointer;
+
+font-weight: bold;
+
+} input[type="submit"] {
+
+background-color: #27ae60;
+
+color: white;
+
+} input[type="reset"] {
+
+background-color: #e74c3c;
+
+color: white;
+
+} input[type="submit"]:hover { background-color: #2ecc71;
+
+} input[type="reset"]:hover { background-color: #c0392b;
+
+}
+
+required:after {
+
+content: "*";
+
+color: red;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="form-container">
+
+<h1>Student Registration Form</h1>
+
+margin-bottom: 5px;
+
+font-weight: bold;
+
+color: #34495e;
+
+} input[type="text"], input[type="email"],
+
+input[type="tel"],
+
+input[type="date"],<form action="#" method="post">
+
+<!-- I. Text Box -->
+
+<div class="form-group">
+
+<label for="fullname" class="required">Full Name</label>
+
+<input type="text" id="fullname" name="fullname" required>
+
+</div>
+
+<div class="form-group">
+
+<label for="email" class="required">Email Address</label>
+
+<input type="email" id="email" name="email" required>
+
+</div
+
+<!-
+
+<div
+
+<
+
+</div>
+
+<div class="form-group">
+
+<label for="phone">Phone Number</label>
+
+<input type="tel" id="phone" name="phone">
+
+value="sp
+
+</div>
+
+<div class="form-group">
+
+<label for="dob" class="required">Date of Birth</label>
+
+<input type="date" id="dob" name="dob" required>
+
+value="m
+
+</div>
+
+<!-- II. Dropdown box -->
+
+<div class="form-group">
+
+value="
+
+<label for="course" class="required">Select Course</label>
+
+<select id="course" name="course" required>
+
+<option value="">-- Select Course --</option>
+
+<option value="cs">Computer Science</option>
+
+<option value="it">Information Technology</option>
+
+value=
+
+<option value="me">Mechanical Engineering</option>
+
+<option value="ce">Civil Engineering</option>
+
+<option value="ee">Electrical Engineering</option>
+
+</select>
+
+</div>
+
+<!-- III. Option/radio buttons ->
+
+<div class="form-group">
+
+required>
+
+<label class="required">Gender</label>
+
+<div class="radio-group">
+
+<span class="radio-option">
+
+<input type="radio" id="male" name="gender" value="male"
+
+<label for="male">Male</label>
+
+</span>
+
+<span class="radio-option">
+
+<input type="radio" id="female" name="gender"
+
+value="female">
+
+<label for="female">Female</label>
+
+</span><span class="radio-option"> <input type="radio" id="other" name="gender" value="other">
+
+<label for="other">Other</label>
+
+</span>
+
+</div>
+
+</div>
+
+<!- IV. Check boxes -->
+
+<div class="form-group">
+
+<label>Interests (Select all that apply)</label>
+
+<div class="checkbox-group">
+
+<span class="checkbox-option">
+
+<input type="checkbox" id="sports" name="interests"
+
+value="sports">
+
+<label for="sports">Sports</label>
+
+</span>
+
+<span class="checkbox-option">
+
+<input type="checkbox" id="music" name="interests"
+
+value="music">
+
+<label for="music">Music</label>
+
+</span>
+
+<span class="checkbox-option">
+
+<input type="checkbox" id="arts" name="interests"
+
+value="arts">
+
+<label for="arts">Arts</label>
+
+</span>
+
+<span class="checkbox-option">
+
+<input type="checkbox" id="coding" name="interests"
+
+value="coding">
+
+<label for="coding">Coding</label>
+
+</span>
+
+</div>
+
+</div>
+
+<!-- V. Reset and Submit button -->
+
+<div class="buttons">
+
+<input type="reset" value="Reset Form">
+
+<input type="submit" value="Submit">
+
+</div>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
