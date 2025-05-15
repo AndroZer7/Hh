@@ -52,7 +52,20 @@ margin-bottom: 15px;
 
 label {
 
-display: block;select {
+display: block;
+
+margin-bottom: 5px;
+
+font-weight: bold;
+
+color: #34495e;
+
+} input[type="text"], input[type="email"],
+
+input[type="tel"],
+
+input[type="date"],
+select {
 
 width: 100%;
 
@@ -125,18 +138,7 @@ color: red;
 <div class="form-container">
 
 <h1>Student Registration Form</h1>
-
-margin-bottom: 5px;
-
-font-weight: bold;
-
-color: #34495e;
-
-} input[type="text"], input[type="email"],
-
-input[type="tel"],
-
-input[type="date"],<form action="#" method="post">
+<form action="#" method="post">
 
 <!-- I. Text Box -->
 
@@ -154,14 +156,6 @@ input[type="date"],<form action="#" method="post">
 
 <input type="email" id="email" name="email" required>
 
-</div
-
-<!-
-
-<div
-
-<
-
 </div>
 
 <div class="form-group">
@@ -169,8 +163,6 @@ input[type="date"],<form action="#" method="post">
 <label for="phone">Phone Number</label>
 
 <input type="tel" id="phone" name="phone">
-
-value="sp
 
 </div>
 
@@ -180,15 +172,11 @@ value="sp
 
 <input type="date" id="dob" name="dob" required>
 
-value="m
-
 </div>
 
 <!-- II. Dropdown box -->
 
 <div class="form-group">
-
-value="
 
 <label for="course" class="required">Select Course</label>
 
@@ -200,8 +188,6 @@ value="
 
 <option value="it">Information Technology</option>
 
-value=
-
 <option value="me">Mechanical Engineering</option>
 
 <option value="ce">Civil Engineering</option>
@@ -212,11 +198,9 @@ value=
 
 </div>
 
-<!-- III. Option/radio buttons ->
+<!-- III. Option/radio buttons -->
 
 <div class="form-group">
-
-required>
 
 <label class="required">Gender</label>
 
@@ -224,7 +208,7 @@ required>
 
 <span class="radio-option">
 
-<input type="radio" id="male" name="gender" value="male"
+<input type="radio" id="male" name="gender" value="male" required>
 
 <label for="male">Male</label>
 
@@ -238,7 +222,8 @@ value="female">
 
 <label for="female">Female</label>
 
-</span><span class="radio-option"> <input type="radio" id="other" name="gender" value="other">
+</span>
+<span class="radio-option"> <input type="radio" id="other" name="gender" value="other">
 
 <label for="other">Other</label>
 
@@ -248,7 +233,7 @@ value="female">
 
 </div>
 
-<!- IV. Check boxes -->
+<!---- IV. Check boxes -->
 
 <div class="form-group">
 
